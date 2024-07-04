@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon_io (3)/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="stail.css">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>STRAVEL</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>S</span>Travel</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index-book.html">Book</a>
+            <a href="index-package.html">Package</a>
+            <a href="#service">Service</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Cari Disini...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- preloader -->
+
+    <div class="preloader">
+        <div class="loading">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end preloader -->
+
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="your email">
+            <input type="password" class="box" placeholder="your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">register now</a></p>
+        </form>
+
+
+    </div>
+
+    <!-- login form container end -->
+
+
+    <script src="jees.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> 
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(500).fadeOut();
+        })
+    </script>
+
+</body>
+
+</html>

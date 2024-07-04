@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon_io (3)/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="stail.css">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>STRAVEL</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>S</span>Travel</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index-book.html">Book</a>
+            <a href="index-package.html">Package</a>
+            <a href="index-service.html">Service</a>
+            <a href="index-gallery.html">Gallery</a>
+            <a href="index-contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Cari Disini...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="your email">
+            <input type="password" class="box" placeholder="your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">register now</a></p>
+        </form>
+
+
+    </div>
+
+    <!-- login form container end -->
+
+
+    <!-- preloader -->
+
+    <div class="preloader">
+        <div class="loading">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end preloader -->
+
+
+    <!-- gallery section -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="Aset/g1.jpg" alt="">
+                <div class="content">
+                    <h3>Indahnya Pantai</h3>
+                    <p>Eksplorasi keajaiban pasir putih dan ombak Bali.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g2.jpg" alt="">
+                <div class="content">
+                    <h3>Resort Nyaman</h3>
+                    <p>Nikmati kemewahan dan kenyamanan di resor pilihan.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g3.jpg" alt="">
+                <div class="content">
+                    <h3>Pendakian Gunung</h3>
+                    <p>Raih puncak keindahan alam dengan pendakian gunung.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g4.jpg" alt="">
+                <div class="content">
+                    <h3>Surfing dan Tantang Ombak</h3>
+                    <p>Tantang ombak Bali dengan serunya surfing.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g5.jpg" alt="">
+                <div class="content">
+                    <h3>Explore Pegunungan</h3>
+                    <p>Jelajahi keindahan alami di puncak pegunungan.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g6.jpg" alt="">
+                <div class="content">
+                    <h3>Keindahan Raja Ampat</h3>
+                    <p>Terpesona dengan keindahan pulau pulau Raja Ampat.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g7.jpg" alt="">
+                <div class="content">
+                    <h3>Wisata Gunung Bromo</h3>
+                    <p>Saksikan pesona matahari terbit di Gunung Bromo.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g8.jpg" alt="">
+                <div class="content">
+                    <h3>Wisata Jetski Pantai</h3>
+                    <p>Nikmati sensasi seru dengan jetski di pantai.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g9.jpg" alt="">
+                <div class="content">
+                    <h3>Diving di Laut Indah</h3>
+                    <p>Terjun dan nikmati keindahan bawah laut Nusantara.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="Aset/g10.jpg" alt="">
+                <div class="content">
+                    <h3>Candi Borobudur</h3>
+                    <p>saksi bisu keindahan sejarah Candi Borobudur.</p>
+                    <a href="index-package.html" class="btn">Lihat lebih lanjut!</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery section end -->
+
+    <!-- review section -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <h1 class="heading">
+                <span>R</span>
+                <span>E</span>
+                <span>V</span>
+                <span>I</span>
+                <span>E</span>
+                <span>W</span>
+            </h1>
+
+            <div class="swiper review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Aset/hutao.png" alt="">
+                            <H3>Hu Tao</H3>
+                            <p>Dengan energi yang berapi-api, destinasi ini seperti menyala dengan kegembiraan dan
+                                keindahan alam yang luar biasa. Benar-benar tempat yang berkesan!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Aset/aizen.png" alt="">
+                            <H3>Aizen</H3>
+                            <p>"Destinasi ini menyimpan misteri dan keindahan yang mendalam, menciptakan pengalaman
+                                liburan tak terlupakan dengan sentuhan keajaiban yang
+                                unik.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Aset/takiya-edi.png" alt="">
+                            <H3>Doraken-Kun😮</H3>
+                            <p>Orewa dorakeng kung, pengelaman yang sangat mendebarkan desu, travel yang sangat
+                                recomended desu, makanan lokal yang sangat OISHIIIIIII, OORRAAAAAA!!!!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Aset/yaoming.jpg" alt="">
+                            <H3>Woilah Cik😂😂😂</H3>
+                            <p>Travel nya loh rek bagus banget, resort dan pengelaman bepergian nya sangat recomended,
+                                wisata yang sangat mengacu adrenalin, woilah cik.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="Aset/windah.jpg" alt="">
+                            <H3>Windah Batubara</H3>
+                            <p>Destinasi ke tempat indah dan penuh misteri, gg gaming ga adik adik, siapa di sini cita
+                                cita nya bepergian dan menikmati keindahan nusantara</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- review section end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="jees.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(500).fadeOut();
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon_io (3)/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="stail.css">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>STRAVEL</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>S</span>Travel</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index-book.html">Book</a>
+            <a href="index-package.html">Package</a>
+            <a href="index-service.html">Service</a>
+            <a href="index-gallery.html">Gallery</a>
+            <a href="index-contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Cari Disini...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="your email">
+            <input type="password" class="box" placeholder="your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">register now</a></p>
+        </form>
+
+
+    </div>
+
+    <!-- login form container end -->
+
+
+    <!-- preloader -->
+
+    <div class="preloader">
+        <div class="loading">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end preloader -->
+
+
+    <!-- services section -->
+
+    <section class="services" id="service">
+
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Hotel Yang Nyaman</h3>
+                <p>Nikmati pengalaman menginap tak terlupakan dengan fasilitas hotel mewah dan kenyamanan terbaik di
+                    destinasi pilihan kami</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Kuliner</h3>
+                <p>Jelajahi kelezatan kuliner lokal yang memikat lidah, memberikan pengalaman kuliner
+                    yang tak terlupakan selama perjalanan Anda</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Panduan Keselamatan</h3>
+                <p>Kami peduli dengan keselamatan Anda. Dapatkan panduan terkini dan layanan keamanan untuk memastikan
+                    perjalanan Anda aman dan menyenangkan</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Jelajahi Nusantara</h3>
+                <p>Temukan keindahan Nusantara dengan paket perjalanan eksklusif kami, membawa Anda ke destinasi indah
+                    dan memukau di seluruh Indonesia</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bolt"></i>
+                <h3>Travel Tercepat</h3>
+                <p>Rasakan kecepatan dalam perjalanan Anda. Layanan transportasi kami memberikan pengalaman perjalanan
+                    yang efisien dan nyaman</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Jadikan setiap perjalanan petualangan tak terlupakan. Temukan kegiatan seru dan tantangan menarik di
+                    destinasi pilihan kami.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section end -->
+
+
+    <script src="jees.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(500).fadeOut();
+        })
+    </script>
+
+</body>
+
+</html>

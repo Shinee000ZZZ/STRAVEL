@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon_io (3)/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stail.css">
+    <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+    <title>STRAVEL</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>S</span>Travel</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index-book.html">Book</a>
+            <a href="index-package.html">Package</a>
+            <a href="index-service.html">Service</a>
+            <a href="index-gallery.html">Gallery</a>
+            <a href="index-contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Cari Disini...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!-- end header -->
+
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="your email">
+            <input type="password" class="box" placeholder="your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">register now</a></p>
+        </form>
+
+
+    </div>
+
+    <!-- login form container end -->
+
+
+    <!-- preloader -->
+
+    <div class="preloader">
+        <div class="loading">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end preloader -->
+
+
+    <!-- home section -->
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Ayo Jelajahi Nusantara</h3>
+            <p>Temukan dan Jelajahi Wisata Baru Bersama Kami</p>
+            <a href="index-package.html " class="btn">Temukan Lebih Lanjut!</a>
+        </div>
+
+        <div class="controls">
+            <video class="vid-btn active" data-src="Aset/vid1.mp4"></video>
+            <video class="vid-btn" data-src="Aset/vid3.mp4"></video>
+            <video class="vid-btn" data-src="Aset/vid2.mp4"></video>
+            <video class="vid-btn" data-src="Aset/vid4.mp4"></video>
+            <video class="vid-btn" data-src="Aset/vid5.mp4"></video>
+        </div>
+
+
+
+        <div class="video-container">
+            <video src="Aset/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <!-- home section end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="jees.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".preloader").delay(500).fadeOut();
+        })
+    </script>
+</body>
+
+</html>
